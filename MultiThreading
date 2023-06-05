@@ -1,0 +1,14 @@
+package com.stunnedjava;
+
+public class Main {
+
+    public static void main(String[] args) {
+	 even e = new even();
+     odd o = new odd();
+     Thread t = new Thread(e);
+     Thread t1 = new Thread(o);
+     t.start();
+     t1.start();
+
+    }
+}
