@@ -1,10 +1,11 @@
 package com.stunnedjava;
-import javax.swing.*;
+
+import addition.sum;
+
 public class Main {
 
-
     public static void main(String[] args) {
-
-        new panelOption();
+	    sum s = new sum();
+        s.Sum(5,8);
     }
 }
