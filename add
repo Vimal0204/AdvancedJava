@@ -1,0 +1,13 @@
+package add;
+
+public class sum {
+    int x;
+    int y;
+    public sum(int x,int y) {
+        this.x=x;
+        this.y=y;
+    }
+    public int add(){
+        return x+y;
+    }
+}
